@@ -44,3 +44,14 @@ A list of my Universities. Only the best.
 5. Life
 
 ---
+
+## Language
+
+English level - **B1** - Intermediate (absolutely).
+Russian level - **Cosmos** - Native
+
+---
+
+> Push it to the limit
+
+![La-Z rider](https://media.giphy.com/media/inyBUdvLJHvvpaC3jB/giphy.gif)
