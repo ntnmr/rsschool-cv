@@ -2,13 +2,9 @@
 
 Web Conqueror
 
----
-
 ## About myself
 
 Sometimes you may find you have no alternative, just Google it in Yandex search.
-
----
 
 ## Skills
 
@@ -18,8 +14,6 @@ Sometimes you may find you have no alternative, just Google it in Yandex search.
 | _HTML_        | :star:  |  :star:   |          |
 | _CSS_         | :star:  |  :star:   |          |
 | _JS_          | :star:  |           |          |
-
----
 
 ## Code snippet
 
@@ -31,8 +25,6 @@ function sayHi() {
 }
 ```
 
----
-
 ## Education
 
 A list of my Universities. Only the best.
@@ -42,8 +34,6 @@ A list of my Universities. Only the best.
 3. [Internet](https://duckduckgo.com/)
 4. Tortuga (_find your way_)
 5. Life
-
----
 
 ## Language
 
