@@ -2,6 +2,14 @@
 
 Web Conqueror
 
+## Contacts
+
+Only if I need you:
+
+- **GitHub:** ntnmr
+- **Discord:** ntnmr#0412
+- **Email:** ntnmr@protonmail.com
+
 ## About myself
 
 Sometimes you may find you have no alternative, just Google it in Yandex search.

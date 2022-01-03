@@ -1,5 +1,112 @@
+/* CSS RESET */
+
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1.5;
+}
+
+/*
+	6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/*
+	 7. Links clean
+ */
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* BASE STYLE */
+html {
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #222222;
+}
+
+.container {
+	margin: 20px auto;
+	border: 1px solid red;
+	width: 1024px;
+	max-width: 1440px;
+}
+li {
+	list-style-type: none;
+}
+
+/* MAIN */
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.h2 {
+	text-align: center;
+}
+
+/* HEADER */
+.header {
+	padding: 10px;
+	background: gold;
+}
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-item {
+	margin-left: 30px;
+}
+/* MAIN */
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.photo {
+	border-radius: 5%;
+}
+
+section {
+	padding: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	font-weight: bold;
+	background: gold;
 }
