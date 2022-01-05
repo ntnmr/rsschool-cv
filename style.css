@@ -6,6 +6,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 img,
 picture,
 video,
@@ -47,9 +48,6 @@ html {
 }
 body {
 	background: rgb(252, 252, 252);
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	line-height: 1.5;
 	min-height: 100vh;
 	width: 100%;
@@ -59,18 +57,12 @@ body {
 	display: grid;
 	gap: 10px;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: repeat (7, 1fr);
 	margin: 30px auto;
 	max-width: 1440px;
 	width: 1024px;
 
 	grid-template-areas:
 		"header header"
-		"main main"
-		"main main"
-		"main main"
-		"main main"
-		"main main"
 		"main main"
 		"footer footer";
 }
@@ -82,7 +74,7 @@ body {
 }
 .main {
 	display: grid;
-	gap: 10px;
+	gap: 15px;
 	grid-area: main;
 	grid-template-columns: 1fr 1fr;
 
@@ -91,9 +83,8 @@ body {
 		"contacts about"
 		"skills code"
 		"education language"
-		"bonus bonus";
-
-	justify-content: space-around;
+		"video video";
+	padding: 15px;
 }
 .intro {
 	grid-area: intro;
@@ -118,12 +109,8 @@ body {
 }
 .video {
 	display: flex;
-	grid-area: bonus;
+	grid-area: video;
 	align-items: center;
-}
-section {
-	display: flex;
-	flex-direction: column;
 }
 
 /* HEADER */
@@ -140,8 +127,10 @@ section {
 
 /* MAIN */
 section {
-	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
 	padding: 10px 20px;
+	border-radius: 25px;
 }
 h2 {
 	background-repeat: no-repeat;
@@ -210,6 +199,7 @@ thead td:first-of-type {
 }
 
 .code pre {
+	margin: 10px 0;
 	background: #f9f3c5bf;
 	border-radius: 20px;
 }
@@ -274,6 +264,7 @@ thead td:first-of-type {
 	font-size: 36px;
 	font-weight: bold;
 	text-transform: uppercase;
+	border-bottom: none;
 }
 .video img {
 	display: block;
