@@ -2,15 +2,165 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 	<title>CV</title>
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 
 <body>
+	<div class="container">
 
+		<header id="header" class="header">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+
+		<main class="main">
+
+			<section class="intro">
+				<img class="photo" src="./images/photo.jpg" alt="photo" width="200" height="200">
+				<h1>Anton Tihov</h1>
+				<p>Web Conqueror </p>
+			</section>
+
+
+
+
+			<section id="contacts" class="contacts">
+				<h2>Contacts</h2>
+				<ul class="contacts-items">
+					<li class="contact-item"><span>GitHub: </span><a href="https://github.com/ntnmr"
+							target="_blank">ntnmr</a></li>
+					<li class="contact-item"><span>Discord: </span><a href="#">ntnmr#0412</a></li>
+					<li class="contact-item"><span>Email: </span><a href="#">ntnmr@protonmail.com</a>
+					</li>
+				</ul>
+			</section>
+
+			<section id="about" class="about">
+				<h2>About myself</h2>
+				<p>Sometimes you may find you have no alternative, just Google it in Yandex search.</p>
+			</section>
+
+			<section id="skills" class="skills">
+				<h2>Skills </h2>
+
+				<table class="table">
+					<caption>Cold facts</caption>
+					<thead>
+						<tr>
+							<td>
+								SKILL LEVEL
+							</td>
+							<td>🐌</td>
+							<td>🐇</td>
+							<td>🚀</td>
+							<td>⚡</td>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>Markdown</td>
+							<td>⭐</td>
+							<td>⭐</td>
+							<td>⭐</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>HTML</td>
+							<td>⭐</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>CSS</td>
+							<td>⭐</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>JS</td>
+							<td>⭐</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</section>
+
+			<section id="code" class="code">
+				<h2>Code snippet</h2>
+				<p>
+					Some part of my artificial-intelligence bot. I have made to talk with me when I'm feeling lonely.
+					<span class="text-cursive">Written with a power of JavaScript.</span>
+				</p>
+				<pre>
+
+	<span class="code-keyword">function</span> <span class="code-function-name">sayHi</span> <span
+		class="code-parenthesis">()</span> <span class="code-braces">{</span>
+		<span class="code-object">console</span>.<span class="code-method">log</span><span class="code-parenthesis">(</span><span class="code-string">"Hi there!"</span><span
+		class="code-parenthesis">)</span>;
+		<span class="code-braces">}</span>
+				</pre>
+
+
+			</section>
+
+			<section id='education' class="education">
+				<h2>Education</h2>
+				<p>A list of my Universities. Only the best.</p>
+				<ol class="education-items">
+					<li class="education-item"><a href="https://www.youtube.com/" target="_blank">Youtube</a> </li>
+					<li class="education-item"><a href="https://www.udemy.com" target="_blank">Udemy</a> </li>
+					<li class="education-item"><a href="https://duckduckgo.com/" target="_blank">Internet</a></li>
+					<li class="education-item">Tortuga (find your way)</li>
+				</ol>
+			</section>
+
+			<section id='language' class="language">
+				<h2>Language</h2>
+				<p>English level - <span class="lang-lvl">B1</span> - Intermediate (absolutely).</p>
+				<p>Russian level - <span class="lang-lvl">Cosmos</span> - Native</p>
+			</section>
+
+			<section class="video">
+				<h2 class="text-shout">Push it to the limit</h2>
+				<a href="https://media.giphy.com/media/inyBUdvLJHvvpaC3jB/giphy.gif" target="_blank">
+					<img src="https://media.giphy.com/media/inyBUdvLJHvvpaC3jB/giphy.gif" alt="push it to the limit">
+				</a>
+			</section>
+		</main>
+
+
+		<footer class="footer">
+			<a class="footer-author" href="https://github.com/ntnmr"> My GitHub</a>
+			<a class="footer-date" href="#header">2022</a>
+			<a class="footer-school-link" href="https://rs.school/js/">
+				<img src="./images/rs_school_js.svg" alt="Rolling Scopes School" width="64" />
+			</a>
+		</footer>
+	</div>
 </body>
 
 </html>
